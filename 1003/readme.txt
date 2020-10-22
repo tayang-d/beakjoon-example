@@ -31,3 +31,7 @@ fibonacci(3)은 fibonacci(2)와 fibonacci(1)의 결과를 얻고, 2를 리턴한
 
 하지만 내가 생각하는 것은 정해진 메모리나 시간에 맞추지 못했다.  
 그래서 다른 사람은 어떻게 구현했는지 봤다. -> 그게 answer.c  
+
+answer.c 해설
+f() = answer.c에 있는 fibonacci 함수
+f(n)에서 0과 1이 리턴된 수는 각각 f(n-1), f(n-2)와 같다.
